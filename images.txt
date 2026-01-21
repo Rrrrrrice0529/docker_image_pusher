@@ -4,9 +4,7 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-python:alpine3.19
 
 # ========== 新增：适配你的GPU训练需求的镜像 ==========
 # 核心：TensorFlow 2.13.0 GPU版（兼容RTX 40系+WSL GPU）
 tensorflow/tensorflow:2.13.0-gpu
-
