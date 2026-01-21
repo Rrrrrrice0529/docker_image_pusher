@@ -9,7 +9,4 @@ python:alpine3.19
 # ========== 新增：适配你的GPU训练需求的镜像 ==========
 # 核心：TensorFlow 2.13.0 GPU版（兼容RTX 40系+WSL GPU）
 tensorflow/tensorflow:2.13.0-gpu
-# 备用：NVIDIA CUDA基础镜像（若TF官方镜像拉取仍有问题时用）
-nvidia/cuda:11.8.0-cudnn8-devel-ubuntu22.04
-# 验证GPU环境用的基础镜像
-nvidia/cuda:10.0-base
+
